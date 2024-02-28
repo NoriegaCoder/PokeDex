@@ -1,0 +1,151 @@
+.pokeCard {
+    border: 5px solid;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 5px;
+    transition: .25s;
+    position: relative;
+}
+.pokeCard:hover{
+    transform: scale(1.05);
+    transition: .25s;
+}
+.pokeCard div{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0 0 ;
+}
+.pokeCard figure {
+    width: 150px;
+    position: relative;
+}
+.pokeCard hr {
+    width: 85%;
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.pokeTypes {
+    display: flex;
+}
+
+.slot2::before{
+    content: ' / ';
+}
+
+.pokeStats{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}
+
+.pokeStats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*valores dinamicos */ 
+
+.grass {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(45,253,70,0.8660968660968661) 100%);
+}
+
+.fire {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(249,10,10,0.8660968660968661) 100%);
+}
+
+.water {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(10,34,249,0.8660968660968661) 100%);
+}
+
+.bug {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(206,249,10,0.8660968660968661) 100%);
+}
+
+.flying {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(10,206,249,0.8660968660968661) 100%);
+}
+
+.normal {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(249,165,10,0.8660968660968661) 100%);
+}
+
+.poison {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(169,10,249,0.8660968660968661) 100%);
+}
+
+.ground {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(249,108,10,0.8660968660968661) 100%);
+}
+
+.electric {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(230,249,10,0.8660968660968661) 100%);
+}
+
+.rock {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(198,61,0,0.8660968660968661) 100%);
+}
+
+.steel {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(120,119,119,0.8660968660968661) 100%);
+}
+
+.ice {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.44729344729344733) 0%, rgba(16,148,138,0.8660968660968661) 100%);
+}
+
+.dragon {
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(63,94,251,1) 44%, rgba(252,70,107,1) 100%);
+}
+
+.ghost {
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(45,3,167,1) 54%, rgba(198,70,252,1) 88%);
+}
+
+.dark {
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(14,2,51,1) 78%, rgba(189,1,1,1) 100%);
+}
+
+.fighting {
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(121,8,8,1) 68%, rgba(255,0,0,1) 100%);
+}
+
+.psychic {
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(179,59,175,1) 68%, rgba(255,0,174,1) 100%);
+}
+
+.fairy{
+    background: rgb(156,82,180);
+background: linear-gradient(0deg, rgba(156,82,180,0.04843304843304841) 2%, rgba(255,148,252,1) 68%, rgba(255,143,219,1) 100%);
+}

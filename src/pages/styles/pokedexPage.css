@@ -1,0 +1,28 @@
+.pokedex{
+    padding-bottom: 1rem;
+    
+}
+
+.pokeHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+.pokeHeader span {
+    color: red;
+}
+.pokeHeader h3{
+    text-align: center;
+}
+.pokeHeader div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pagContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
